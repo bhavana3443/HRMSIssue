@@ -23,7 +23,7 @@ def extract_data_from_text(text):
                 
             # Split line by common delimiters (tab, multiple spaces, or |)
             row = re.split(r'\t+|\s{2,}|\|', line)
-            if len(row) >= 9:  # Ensure we have all required fields
+            if len(row) >= 9:  # Ensure we have all required fields yt5f5ff5ff5hyhyhyy
                 data.append(row[:9])  # Take only the first 9 columns
         
         # Create DataFrame with expected columns
@@ -426,7 +426,7 @@ def main():
     """.format(get_base64_encoded_image("l.png")), unsafe_allow_html=True)
     
     # Create a container for Employee Management section
-    st.markdown("<h2 class='emp-title'>Employee Management</h2>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: white;'>Employee Management</h1>", unsafe_allow_html=True)
     
     # Add CSS for file uploader
     st.markdown("""
