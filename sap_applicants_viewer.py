@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import docx2txt
 import PyPDF2
 import io
 import re
